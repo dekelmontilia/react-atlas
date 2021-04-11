@@ -1,11 +1,10 @@
 import Header from './components/Header';
 import './App.css';
-import MyMapComponent from './components/myMapComponent';
+import "leaflet/dist/leaflet.css";
 
 function App() {
   return (
     <div className="App">
-     <MyMapComponent/>
       <Header />
     </div>
   );
